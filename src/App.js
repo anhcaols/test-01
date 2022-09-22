@@ -4,12 +4,12 @@ import Footer from './components/Footer/Footer'
 
 import Main from './components/Content/Main'
 import images from './assets'
-import MainLayout from './components/GlobalStyles/GlobalStyles'
+import GlobalStyles from './components/GlobalStyles/GlobalStyles'
 
 function App() {
     return (
         <div className="app">
-            <MainLayout>
+            <GlobalStyles>
                 <Sidebar />
                 <div className="content">
                     <div className="logo">
@@ -18,7 +18,7 @@ function App() {
                     <Main />
                 </div>
                 <Footer />
-            </MainLayout>
+            </GlobalStyles>
         </div>
     )
 }
