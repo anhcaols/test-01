@@ -11,7 +11,7 @@ function App() {
             <Sidebar />
             <div className="content">
                 <div className="logo">
-                    <img src={images.logo} alt="" />
+                    <img src={images.logo} alt="img" />
                 </div>
                 <Main />
             </div>
