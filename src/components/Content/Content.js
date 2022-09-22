@@ -1,7 +1,7 @@
-import './Main.css'
+import './Content.css'
 import classNames from 'classnames'
 import images from '../../assets'
-function Main() {
+function Content() {
     return (
         <div className="main">
             {/* Content - Head */}
@@ -67,4 +67,4 @@ function Main() {
     )
 }
 
-export default Main
+export default Content

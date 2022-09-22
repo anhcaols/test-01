@@ -2,7 +2,7 @@ import './App.css'
 import Sidebar from './components/Sidebar/Sidebar'
 import Footer from './components/Footer/Footer'
 
-import Main from './components/Content/Main'
+import Content from './components/Content/Content'
 import images from './assets'
 import GlobalStyles from './components/GlobalStyles/GlobalStyles'
 
@@ -15,7 +15,7 @@ function App() {
                     <div className="logo">
                         <img src={images.logo} alt="img" />
                     </div>
-                    <Main />
+                    <Content />
                 </div>
                 <Footer />
             </GlobalStyles>
