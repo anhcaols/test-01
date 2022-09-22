@@ -2,20 +2,23 @@ import './App.css'
 import Sidebar from './components/Sidebar/Sidebar'
 import Footer from './components/Footer/Footer'
 
-import Main from './components/Main/Main'
+import Main from './components/Content/Main'
 import images from './assets'
+import MainLayout from './components/MainLayout/MainLayout'
 
 function App() {
     return (
         <div className="app">
-            <Sidebar />
-            <div className="content">
-                <div className="logo">
-                    <img src={images.logo} alt="img" />
+            <MainLayout>
+                <Sidebar />
+                <div className="content">
+                    <div className="logo">
+                        <img src={images.logo} alt="img" />
+                    </div>
+                    <Main />
                 </div>
-                <Main />
-            </div>
-            <Footer />
+                <Footer />
+            </MainLayout>
         </div>
     )
 }
