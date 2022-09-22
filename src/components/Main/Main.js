@@ -20,10 +20,8 @@ function Main() {
                 <div className={classNames('content-main-item')}>
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div className={classNames('content-main-body')}>
-                        <div className={classNames('main-item__img')}>
-                            <img src={images.icon1} alt="" />
-                        </div>
                         <p>
+                            <img className={classNames('main-item__img')} src={images.icon1} alt="" />
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus
                             libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum
                             velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam
@@ -37,10 +35,8 @@ function Main() {
                 <div className={classNames('content-main-item')}>
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div className={classNames('content-main-body')}>
-                        <div className={classNames('main-item__img')}>
-                            <img src={images.icon1} alt="" />
-                        </div>
                         <p>
+                            <img className={classNames('main-item__img')} src={images.icon2} alt="" />
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus
                             libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum
                             velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam
@@ -54,10 +50,8 @@ function Main() {
                 <div className={classNames('content-main-item')}>
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div className={classNames('content-main-body')}>
-                        <div className={classNames('main-item__img')}>
-                            <img src={images.icon1} alt="" />
-                        </div>
                         <p>
+                            <img className={classNames('main-item__img')} src={images.icon3} alt="" />
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus
                             libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum
                             velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam

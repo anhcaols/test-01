@@ -23,7 +23,7 @@
 }
 
 .content-main-list {
-    margin: 0 129px;
+    margin: 0 129px 182px 129px;
     display: flex;
 }
 
@@ -32,20 +32,21 @@
     width: 33.33%;
 }
 .content-main-item {
-    padding-right: 50px;
+    margin-right: 50px;
 }
 .content-main-item:last-child {
-    padding-right: 0;
+    margin-right: 0;
 }
 
 .content-main-body {
-    display: flex;
+    /* display: flex; */
 }
 
-.main-item__img img {
+.main-item__img {
     width: 128px;
     height: 128px;
     margin-right: 16px;
+    float: left;
 }
 
 .content-main-item h4 {
@@ -60,4 +61,5 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    width: 100%;
 }
