@@ -4,7 +4,7 @@ import Footer from './components/Footer/Footer'
 
 import Main from './components/Content/Main'
 import images from './assets'
-import MainLayout from './components/MainLayout/MainLayout'
+import MainLayout from './components/GlobalStyles/GlobalStyles'
 
 function App() {
     return (
