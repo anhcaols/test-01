@@ -1,25 +1,28 @@
-import './Sidebar.css'
 import classNames from 'classnames'
+import { Link } from 'react-router-dom'
+
+import './Sidebar.css'
+
 function Sidebar() {
     return (
         <div className={classNames('sidebar')}>
             <ul className={classNames('nav-bar')}>
                 <li>
-                    <a href="#" className="active">
+                    <Link to="#" className="active">
                         Home
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="#">Services</a>
+                    <Link to="#">Services</Link>
                 </li>
                 <li>
-                    <a href="#">News</a>
+                    <Link to="#">News</Link>
                 </li>
                 <li>
-                    <a href="#">Blog</a>
+                    <Link to="#">Blog</Link>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <Link to="#">Contact</Link>
                 </li>
             </ul>
         </div>
