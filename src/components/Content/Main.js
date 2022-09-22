@@ -4,6 +4,7 @@ import images from '../../assets'
 function Main() {
     return (
         <div className="main">
+            {/* Content - Head */}
             <div className={classNames('content-head')}>
                 <h3>Lorem ipsum dolor sit asmet?</h3>
                 <p>
@@ -15,7 +16,7 @@ function Main() {
                     tristique eu. Donec vulputate odio neque, sed semper turpis pellentesque a.
                 </p>
             </div>
-
+            {/* Content - Main List */}
             <div className={classNames('content-main-list')}>
                 <div className={classNames('content-main-item')}>
                     <h4>Lorem ipsum dolor sit amet</h4>

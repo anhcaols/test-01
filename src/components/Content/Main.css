@@ -13,7 +13,7 @@
     height: 122px;
 }
 
-/* content */
+/* content head */
 .content-head {
     background: #efefef;
     text-align: center;
@@ -35,6 +35,7 @@
     padding: 0 100px;
 }
 
+/* content main list */
 .content-main-list {
     margin: 0 129px 182px 129px;
     display: flex;

@@ -1,5 +1,4 @@
 import './Footer.css'
-import classNames from 'classnames'
 
 function Footer() {
     return (
