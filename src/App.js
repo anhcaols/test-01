@@ -1,16 +1,18 @@
 import './App.css'
 import Sidebar from './components/Sidebar/Sidebar'
-import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 
 import Main from './components/Main/Main'
+import images from './assets'
 
 function App() {
     return (
         <div className="app">
             <Sidebar />
             <div className="content">
-                <Header />
+                <div className="logo">
+                    <img src={images.logo} alt="" />
+                </div>
                 <Main />
             </div>
             <Footer />

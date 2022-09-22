@@ -1,6 +1,18 @@
 .main {
     margin-top: 30px;
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.logo img {
+    width: 310px;
+    height: 122px;
+}
+
 .content-head {
     background: #efefef;
     text-align: center;
@@ -19,7 +31,7 @@
 }
 
 .content-head p {
-    width: 972px;
+    padding: 0 296px;
 }
 
 .content-main-list {
