@@ -1,0 +1,29 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #191718;
+    width: 150px;
+}
+.nav-bar li {
+    padding: 14px 0 11px 16px;
+    border-bottom: 1px solid #5c5c5c;
+}
+.nav-bar a.active {
+    color: #fff;
+}
+.nav-bar li:hover {
+    background: #5c5c5c;
+    color: #fff;
+}
+
+.nav-bar li:hover a {
+    color: #fff;
+}
+.nav-bar a {
+    color: #aaaaaa;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
